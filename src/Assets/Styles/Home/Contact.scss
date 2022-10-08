@@ -1,5 +1,5 @@
 .contact-home-main-container {
-  background: url("../../../Assets/Images/home-bg.png");
+  background: url("../../../Assets/Images/home-bg.webp");
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -12,7 +12,7 @@
   width: 100%;
   .contact-main-box1 {
     width: 30%;
-    background: url("../../Images/landimg.png");
+    background: url("../../Images/landimg.webp");
     background-repeat: no-repeat !important;
     background-position: center;
     background-size: contain;
@@ -20,7 +20,7 @@
   }
   .contact-main-box2 {
     width: 48%;
-    background: url("../../Images/blur.png");
+    background: url("../../Images/blur.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -95,7 +95,7 @@
       cursor: pointer;
 
       &:hover {
-        background-color: #cf0a2bdd;
+        background-color: #ff002b;
       }
     }
   }
@@ -191,7 +191,7 @@ input[type="checkbox"]:checked {
         color: #ffffff;
         cursor: pointer;
         &:hover {
-          background-color: #cf0a2bdd;
+          background-color: #ff002b;
         }
       }
     }
@@ -282,7 +282,7 @@ input[type="checkbox"]:checked {
     color: #ffffff;
     cursor: pointer;
     &:hover {
-      background-color: #cf0a2bdd;
+      background-color: #ff002b;
     }
   }
 }
@@ -295,7 +295,7 @@ input[type="checkbox"]:checked {
     color: #ffffff;
     cursor: pointer;
     &:hover {
-      background-color: #cf0a2bdd;
+      background-color: #ff002b;
     }
   }
 }

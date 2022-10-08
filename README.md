@@ -1,6 +1,7 @@
 # Getting Started with Create React App
+In the project directory, run: ### npm i  reinstall node modules if you want to share this project you should delete node modules and share it. On other hand, there are going to reinstall all modules.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To run the app in the development mode.\
 
 ## Available Scripts
 

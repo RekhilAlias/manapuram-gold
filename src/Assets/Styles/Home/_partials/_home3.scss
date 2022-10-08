@@ -1,132 +1,149 @@
 .final-last-container {
-    width: 100%;
-    background-color: #171c24;
-  }
-  
-  .final-last-head-main {
-    width: 98%;
-    margin: 2em auto;
-    text-align: center;
+  width: 100%;
+  background-color: #171c24;
+}
 
-    p{
-        color: white;
-    }
-  
-    h1 {
-      color: rgb(255, 255, 255);
+.final-last-head-main {
+  width: 98%;
+  margin: 2em auto;
+  text-align: center;
+
+  p {
+    color: white;
+  }
+
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+}
+
+.boxcard-container-main {
+  width: 98%;
+  margin: 2em auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+
+  .boxchild-card-one {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 5px solid red;
+    padding: 1.4em;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 400px;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(0.9);
+      transition: 1s ease-in-out;
     }
   }
-  
+
+  .boxchild-card-two {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 5px solid red;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 400px;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(0.9);
+      transition: 1s ease-in-out;
+    }
+  }
+
+  .boxchild-card-three {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 5px solid red;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 400px;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(0.9);
+      transition: 1s ease-in-out;
+    }
+  }
+
+  .boxcard-head {
+    h1 {
+      padding: 1em;
+      color: white;
+      font-size: 1.4rem;
+    }
+  }
+}
+.empty {
+  height: 10vh;
+}
+
+@media screen and (max-width: 700px) {
   .boxcard-container-main {
-    width: 98%;
-    margin: 2em auto;
+    width: 97%;
+    margin: 1em auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
-  
+
     .boxchild-card-one {
       border-top: 1px solid red;
       border-left: 1px solid red;
       border-right: 1px solid red;
       border-bottom: 5px solid red;
-      padding: 1.4em;
+      padding: 1em;
+
+      width: 100%;
       border-radius: 10px;
       margin-top: 1em;
       margin-bottom: 1em;
-      width: 400px;
     }
-  
+
     .boxchild-card-two {
       border-top: 1px solid red;
       border-left: 1px solid red;
       border-right: 1px solid red;
       border-bottom: 5px solid red;
       padding: 0.5em;
+
+      width: 100%;
       border-radius: 10px;
       margin-top: 1em;
       margin-bottom: 1em;
-      width: 400px;
     }
-  
+
     .boxchild-card-three {
       border-top: 1px solid red;
       border-left: 1px solid red;
       border-right: 1px solid red;
       border-bottom: 5px solid red;
       padding: 0.5em;
+      width: 100%;
       border-radius: 10px;
       margin-top: 1em;
       margin-bottom: 1em;
-      width: 400px;
     }
-  
+
     .boxcard-head {
       h1 {
-        padding: 1em;
-        color: white;
-        font-size: 1.4rem;
+        padding: 0.2em;
+        font-size: 0.8rem;
       }
     }
   }
-  .empty {
-    height: 10vh;
-  }
-  
-  @media screen and (max-width: 700px) {
-    .boxcard-container-main {
-      width: 97%;
-      margin: 1em auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      text-align: center;
-      flex-wrap: wrap;
-  
-      .boxchild-card-one {
-        border-top: 1px solid red;
-        border-left: 1px solid red;
-        border-right: 1px solid red;
-        border-bottom: 5px solid red;
-        padding: 1em;
-  
-        width: 100%;
-        border-radius: 10px;
-        margin-top: 1em;
-        margin-bottom: 1em;
-      }
-  
-      .boxchild-card-two {
-        border-top: 1px solid red;
-        border-left: 1px solid red;
-        border-right: 1px solid red;
-        border-bottom: 5px solid red;
-        padding: 0.5em;
-  
-        width: 100%;
-        border-radius: 10px;
-        margin-top: 1em;
-        margin-bottom: 1em;
-      }
-  
-      .boxchild-card-three {
-        border-top: 1px solid red;
-        border-left: 1px solid red;
-        border-right: 1px solid red;
-        border-bottom: 5px solid red;
-        padding: 0.5em;
-        width: 100%;
-        border-radius: 10px;
-        margin-top: 1em;
-        margin-bottom: 1em;
-      }
-  
-      .boxcard-head {
-        h1 {
-          padding: 0.2em;
-          font-size: 0.8rem;
-        }
-      }
-    }
-  }
-  
+}

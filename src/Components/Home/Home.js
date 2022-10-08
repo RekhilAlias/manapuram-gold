@@ -14,8 +14,7 @@ function Home() {
   return (
     <>
       <div className="home-container">
-        
-         <Contact />
+        <Contact />
         <HomeSection2 />
         <HomeSection3 />
         <HomeSection4 />

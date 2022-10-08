@@ -1,7 +1,7 @@
 import React from "react";
-import icon1 from "../../Assets/Images/icon1.png";
-import icon2 from "../../Assets/Images/icon2.png";
-import icon3 from "../../Assets/Images/icon3.png";
+import icon1 from "../../Assets/Images/icon1.webp";
+import icon2 from "../../Assets/Images/icon2.webp";
+import icon3 from "../../Assets/Images/icon3.webp";
 
 function HomeSection3() {
   return (
@@ -13,7 +13,7 @@ function HomeSection3() {
 
       <div className="card-container-main">
         <div className="child-card-one">
-            <img src={icon1} />
+            <img src={icon1} alt="img" />
           <div className="card-head">
             <h1>Apply For A Gold Loan</h1>
             <p>Schedule your appointment</p>
@@ -22,7 +22,7 @@ function HomeSection3() {
         </div>
 
         <div className="child-card-two">
-        <img src={icon2} />
+        <img src={icon2} alt="img" />
           <div className="card-head">
             <h1>
               Get Your Gold Valued At
@@ -36,7 +36,7 @@ function HomeSection3() {
         </div>
 
         <div className="child-card-three">
-        <img src={icon3} />
+        <img src={icon3} alt="img" />
           <div className="card-head">
             <h1>
               Get Instant Disbursal Of <br /> The Loan Amount

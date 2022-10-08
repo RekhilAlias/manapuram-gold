@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../Assets/Styles/nav.scss";
-import Logo from "../Assets/Images/Logo.png";
-import Logo1 from "../Assets/Images/Logo1.png";
+import Logo from "../Assets/Images/Logo.webp";
+import Logo1 from "../Assets/Images/Logo1.webp";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -55,70 +55,65 @@ function Navbar() {
           </label>
 
           <li>
-            <a className="link-show-grad" onClick={Removing} href="/">
+            <a className="link-show-grad" onClick={Removing} href="#">
               Company
             </a>
           </li>
           <li>
-            <a className="link-show-grad" onClick={Removing} href="/">
+            <a className="link-show-grad" onClick={Removing} href="#">
               Products
             </a>
           </li>
           <li>
-            <a className="link-show-grad" onClick={Removing} href="/">
+            <a className="link-show-grad" onClick={Removing} href="#">
               About
             </a>
           </li>
-          
-          
+
           <li>
-            <a className="link-show-grad" onClick={Removing} href="/">
-            Subsidiaries
-            </a>
-          </li>
-       
-       
-          <li>
-            <a className="link-show-grad" onClick={Removing} href="/">
-            Investors
-            </a>
-          </li>
-
-
-
-        <li>
-            <a className="link-show-grad" onClick={Removing} href="/">
-            Careers
+            <a className="link-show-grad" onClick={Removing} href="#">
+              Subsidiaries
             </a>
           </li>
 
           <li>
-            <a className="link-show-grad" onClick={Removing} href="/">
-            Contact Us
+            <a className="link-show-grad" onClick={Removing} href="#">
+              Investors
             </a>
           </li>
 
           <li>
-            <a className="link-show-grad" onClick={Removing} href="/">
-            CSR
+            <a className="link-show-grad" onClick={Removing} href="#">
+              Careers
             </a>
           </li>
-       
+
+          <li>
+            <a className="link-show-grad" onClick={Removing} href="#">
+              Contact Us
+            </a>
+          </li>
+
+          <li>
+            <a className="link-show-grad" onClick={Removing} href="#">
+              CSR
+            </a>
+          </li>
         </ul>
 
         <label htmlFor="menu-btn" className="btn menu-btn">
-          {display2 ? <i onClick={Adding} className="fas fa-bars"></i> : ""}
+          {display2 ? <i onClick={Adding} className="fas fa-bars"></i> : ":"}
         </label>
         <div className="icon-nav-con">
-          <a href="">
+          <a href="#">
             <FaFacebookF className="iconnav1" color="white" size="1em" />
           </a>
 
-          <a href="">
+          <a href="#">
             <FaTwitter className="iconnav3" color="white" size="1em" />
           </a>
 
-          <a href="">
+          <a href="#">
             <FaLinkedinIn className="iconnav5" color="white" size="1em" />
           </a>
 
@@ -126,7 +121,7 @@ function Navbar() {
             <FaYoutube className="iconnav4" color="white" size="1em" />
           </a>
 
-          <a href="">
+          <a href="#">
             <FaInstagram className="iconnav2" color="white" size="1em" />
           </a>
         </div>
