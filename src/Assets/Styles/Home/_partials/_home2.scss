@@ -1,0 +1,121 @@
+.second-last-container {
+  width: 100%;
+}
+
+.second-last-head-main {
+  width: 98%;
+  margin: 2em auto;
+  text-align: center;
+
+  h1 {
+    color: red;
+  }
+}
+
+.card-container-main {
+  width: 98%;
+  margin: 2em auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+
+  .child-card-one {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 5px solid red;
+    padding: 1.4em;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .child-card-two {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 5px solid red;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .child-card-three {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 5px solid red;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .card-head {
+    h1 {
+      padding: 1em;
+    }
+  }
+}
+.empty {
+  height: 10vh;
+}
+
+@media screen and (max-width: 600px) {
+  .card-container-main {
+    width: 97%;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+
+    .child-card-one {
+      border-top: 1px solid red;
+      border-left: 1px solid red;
+      border-right: 1px solid red;
+      border-bottom: 5px solid red;
+      padding: 1em;
+
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    .child-card-two {
+      border-top: 1px solid red;
+      border-left: 1px solid red;
+      border-right: 1px solid red;
+      border-bottom: 5px solid red;
+      padding: 0.5em;
+
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    .child-card-three {
+      border-top: 1px solid red;
+      border-left: 1px solid red;
+      border-right: 1px solid red;
+      border-bottom: 5px solid red;
+      padding: 0.5em;
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    .card-head {
+      h1 {
+        padding: 0.2em;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
